@@ -205,7 +205,7 @@ Examples:
 --// Namecall Version // --
 local mt = getrawmetatable(game)
 local backupindex = mt.__index
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Experimental%20Silent%20Aim%20Module.lua"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Karz1337/SilentAimArchive/main/SilentAimVars"))()
 ValiantAimHacks["TeamCheck"] = false
 setreadonly(mt, false)
 
@@ -225,7 +225,7 @@ setreadonly(mt, true)
 -- // Index Version // --
 local mt = getrawmetatable(game)
 local backupindex = mt.__index
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Experimental%20Silent%20Aim%20Module.lua"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Karz1337/SilentAimArchive/main/SilentAimVars"))()
 ValiantAimHacks["TeamCheck"] = false
 setreadonly(mt, false)
 
